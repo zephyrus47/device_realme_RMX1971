@@ -1,4 +1,4 @@
-on init
+on post-fs
     mount none /system/etc/manifest.xml /vendor/etc/vintf/manifest.xml bind
 
     # Hax to fix sensors
