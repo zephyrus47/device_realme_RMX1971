@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
+    lineage.biometrics.fingerprint.inscreen@1.0-service.RMX1921 \
     vendor.appo.hardware.biometrics.fingerprint@2.1
 
 PRODUCT_COPY_FILES += \
@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-android.hardware.sensors@1.0-impl.realme_sdm710
+android.hardware.sensors@1.0-impl.RMX1921
 
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1921/RMX1921-vendor.mk)
