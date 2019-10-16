@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "android.hardware.sensors@1.0-impl.RMX1921",
+    name: "android.hardware.sensors@1.0-impl.RMX1971",
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: ["Sensors.cpp"],
@@ -15,12 +15,12 @@ cc_library_shared {
     ],
     static_libs: [
         "android.hardware.sensors@1.0-convert",
-        "multihal.RMX1921",
+        "multihal.RMX1971",
     ],
 }
 
 cc_library_static {
-    name: "multihal.RMX1921",
+    name: "multihal.RMX1971",
     srcs: [
         "multihal.cpp",
         "SensorEventQueue.cpp",

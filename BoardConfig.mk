@@ -7,16 +7,16 @@
 # Inherit from Xiaomi sdm710-common
 include device/realme/sdm710-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/realme/RMX1921
+DEVICE_PATH := device/realme/RMX1971
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1921
+TARGET_OTA_ASSERT_DEVICE := RMX1971
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := RMX1921_defconfig
+TARGET_KERNEL_CONFIG := RMX1971_defconfig
 
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
@@ -31,4 +31,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 BOARD_VNDK_RUNTIME_DISABLE := false
 
 # Inherit from the proprietary version
--include vendor/realme/RMX1921/BoardConfigVendor.mk
+-include vendor/realme/RMX1971/BoardConfigVendor.mk
