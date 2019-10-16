@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.appo.hardware.biometrics.fingerprint@2.1
+    vendor.oppo.hardware.biometrics.fingerprint@2.1
 
 # HIDL
 PRODUCT_COPY_FILES += \
