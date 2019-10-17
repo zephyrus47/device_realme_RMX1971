@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX1921
+DEVICE_PATH := device/realme/RMX1971
 
 # Architecture
 TARGET_ARCH := arm64
@@ -57,7 +57,7 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 #TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1921
+TARGET_OTA_ASSERT_DEVICE := RMX1971
 
 # Avb
 BOARD_AVB_ENABLE := true
